@@ -1,0 +1,47 @@
+{
+  "name": "my_ajs_homework_typescript",
+  "version": "1.0.0",
+  "description": "[![CI Pipeline](https://github.com/Jeyhun1979/my_ajs_homework_typescript/actions/workflows/main.yml/badge.svg)](https://github.com/Jeyhun1979/my_ajs_homework_typescript/actions/workflows/main.yml)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "watch": "tsc -w",
+    "prepare": "husky install",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyhun1979/my_ajs_homework_typescript.git"
+  },
+  "author": "Jeyhun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyhun1979/my_ajs_homework_typescript/issues"
+  },
+  "homepage": "https://github.com/Jeyhun1979/my_ajs_homework_typescript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@eslint/js": "^9.39.1",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "ts-jest": "^29.4.5",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.46.0"
+  }
+}
